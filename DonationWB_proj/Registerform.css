@@ -1,0 +1,102 @@
+*{
+    font-family: 'Open Sans', sans-serif;  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("./regiterbg.jpg");
+    background-size: 100%;
+}
+.bgr{
+    
+    position:absolute;
+    max-width:800px;
+    height:auto;
+    margin:auto;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+.rightside{
+    position: relative;
+    background-image: linear-gradient(45deg, #356fc7,#031269);
+    border-radius:25px;
+    height:100%;
+    padding:25px;
+    color:white;
+    font-size: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftside{
+    text-align: center;
+    position:relative;
+    background: rgba(255, 255, 255, 0.065);
+    border-radius: 25px;
+    height:100%;
+    padding:25px;
+    padding-left: 50px;
+  
+}
+.leftside h2{
+    
+    color: rgb(39, 25, 233);
+    font-size:24px;
+    font-weight:700;
+    
+
+}
+.leftside .btn{
+    background: linear-gradient(45deg, #356fc7,#031269);
+    color:white;
+    width:200px;
+    border:none;
+    border-radius: 25px;
+    padding:10px;
+    margin-bottom: 5px;
+    box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -webkit-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -moz-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+}
+.leftside .btn:hover{
+    background: linear-gradient(45deg, #031260,#3565c7);
+    border: 1px solid lightpink;
+}
+.leftside .btn:focus{
+    outline: none;
+}
+.row{
+    height: 100%;
+}
+.card{
+    position:relative;
+    background: rgba(255, 255, 255, 0.5);
+    height: 100%;
+    border-radius: 25px;
+    box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -moz-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+}
+.box{
+    position: relative;
+    margin:20px;
+    margin-bottom: 100px;
+}
+.leftside .form-control{
+    border-radius: 15px;
+    border:none;
+    box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -webkit-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -moz-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    
+}
+.myform{
+    position:relative;
+    margin-top:40px;
+
+
+}
