@@ -1,0 +1,71 @@
+*{
+    font-family: 'Open Sans', sans-serif;  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("./StartCampimg.jpg");
+    background-size: 100%;
+}
+.bgr{
+    background:rgba(255, 255, 255, 0.5);
+    margin-top:20vh;
+    margin-bottom:50px;
+    width:60%;
+    border-radius: 25px;
+    border: solid 2px black;
+    position:relative;
+    box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -moz-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    
+}
+.bgr .nav-pills .nav-item .nav-link.active{
+    color:white;
+    background: #031269;
+}
+.bgr h2{
+    font-weight:bold;
+    margin:15px 15px;
+}
+
+.row .btn{
+    border-radius:25px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.form-control{
+    border-radius:25px;
+    box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -webkit-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -moz-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+}
+.tabs .tab-content{
+    border:none;
+    background:rgba(255, 255, 255, 0);
+    color:rgb(0, 0, 0);
+}
+.tabs .tab-content .btn{
+    background: linear-gradient(45deg, #356fc7,#031269);
+    border:1px solid #356fc7;
+    color:white;
+    transition: 1s ease-in-out;
+
+}
+.tabs .tab-content .btn:hover{
+    background:linear-gradient(45deg, #031269,#356fc7); ;
+}
+
+.form-label{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+@media(max-width:750px){
+    body{
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

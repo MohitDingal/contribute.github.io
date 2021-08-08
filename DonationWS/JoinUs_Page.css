@@ -1,0 +1,44 @@
+*{
+        font-family: 'Open Sans', sans-serif;  
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+    
+}
+body{
+    background: url("./login_img.jpeg");
+    background-size:100%;
+}
+.form-container{
+    background-color: rgba(255, 255, 255, 0.699);
+    padding:20px 30px;
+    margin-top:20vh;
+    border-radius: 25px;
+    box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -webkit-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+    -moz-box-shadow: 10px 14px 41px 16px rgba(0,0,0,0.84);
+}
+.form-container.submit{
+    cursor:submit;
+    padding:5px;
+}
+.form-container .form-control{
+    box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -webkit-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -moz-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+}
+.btn{
+    box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -webkit-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    -moz-box-shadow: 2px 9px 17px -5px rgba(55, 83, 245, 0.884);
+    border-radius: 25px;
+    color:white;
+    background:linear-gradient(45deg, #356fc7,#031269);
+}
+@media(max-width:750px){
+    body{
+        background-size:300%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

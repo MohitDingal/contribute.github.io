@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home_Page.css">
+     <link rel="stylesheet" href="StartCampaign.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/4dc14b104c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top center">
+        <a href="#" class="navbar-brand">Contribute</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navLinks">
+            <ul class="navbar-nav ml-auto my-2 my-lg-0">
+                <li class="nav-item">
+                    <a href="./Home_Page.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="JoinUs_Page.html" class="nav-link">Join Us/ Log in</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./Home_Page.html" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./StartCampaign.html" class="nav-link">Start a campaign</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+   
+    <div class="container bgr">
+        <h2 class="text-uppercase text-center py-10">Start your campaign</h2>
+        <div class="col tabs mt-5" id="about-tabs">
+            <div class="row-md-6">
+               <ul class="nav nav-pills nav-fill d-md-flex d-block flex-row">
+                 <li class="nav-item text-center">
+                   <a href="#about-1" class="nav-link active py-4" data-toggle="tab">Individual/Group</a>
+                 </li>
+                 <li class="nav-item text-center">
+                   <a href="#about-2" class="nav-link  py-4" data-toggle="tab">NGO</a>
+                 </li>
+                 
+               </ul>
+            </div>
+               <div class="row-md-6">
+                <div class="tab-content">
+                  <div class="tab-pane container p-0 active" id="about-1">
+                    <form class="row g-3 justify-content-center">
+                        <div class="col-12">
+                            <label for="inputFullName"class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="inputFullName">
+                        </div>
+                        
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputContact" class="form-label">Contact</label>
+                          <input type="text" class="form-control" id="inputContact">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        
+                        <div class="col-12">
+                            <label for="floatingTextarea2" class="form-label">Campaign details</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Give a brief information about the campaign. We will decide whether it is accepted or rejected" id="floatingTextarea2" style="height: 150px "></textarea>
+                           
+                          </div> 
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-block">REQUEST CAMPAIGN</button>
+                        </div>
+                      </form>
+                
+                  </div> 
+                
+                    <div class="tab-pane container p-0 " id="about-2">
+                        <form class="row g-3 justify-content-center">
+                            <div class="col-12">
+                                <label for="inputFullName"class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="inputFullName">
+                            </div>
+                            <div class="col-md-6">
+                              <label for="inputEmail4" class="form-label">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputContact" class="form-label">Contact</label>
+                                <input type="text" class="form-control" id="inputContact">
+                              </div>
+                            
+                            <div class="col-6">
+                                <label for="OrgName" class="form-label">Organisation name</label>
+                                <input type="text" class="form-control" id="OrgName">
+                            </div>
+                            <div class="col-6">
+                                <label for="link" class="form-label">Link to any page or website(If any)</label>
+                                <input type="text" class="form-control" id="link">
+                            </div>
+                            <div class="col-12">
+                                <label for="floatingTextarea2" class="form-label">Campaign details</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Give a brief information about the campaign. We will decide whether it is accepted or rejected Note:Do provide the maximum number of days the campaign should go on" id="floatingTextarea2" style="height: 150px "></textarea>
+                               
+                              </div> 
+                            </div>
+                            <div class="col-12">
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                  Recheck everything again and tick the box
+                                </label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <button type="submit" class="btn btn-block">REQUEST CAMPAIGN</button>
+                            </div>
+                          </form>
+                
+                    </div>
+                
+                
+                 </div>
+               </div>
+           </div>
+            </div>
+       
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $("#mainNavbar");
+                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>      
+</body>
+</html>
